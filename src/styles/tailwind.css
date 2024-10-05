@@ -1,0 +1,155 @@
+@tailwind base;
+
+@layer base {
+    html {
+        @apply font-body;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading;
+    }
+
+    @view-transition {
+        navigation: auto;
+        /* enabled! */
+    }
+}
+
+@tailwind components;
+
+/*
+Level 8 = #EBF4FF [50]
+Level 7 = #F2F4FC [50]
+Level 6 = #F1F3FC [50]
+Level 5 = #F7F7FB [50]
+Level 4 = #F8F6F9 [50]
+Level 3 = #FAF5F8 [50]
+Level 2 = #FBF5F5 [50]
+Level 1 = #FEF4F2 [50]
+*/
+
+
+@layer components {
+    .text-regular {
+        @apply text-zinc-950 font-medium
+    }
+
+    .text-regular-bold {
+        @apply text-zinc-950 font-bold
+    }
+
+    .text-orange {
+        @apply text-orange-600
+    }
+
+    .bg-lightGray {
+      @apply bg-gray-50/30
+    }
+
+    .bg-progress-light-1 {
+        @apply bg-[#FEF4F2]
+    }
+    .bg-progress-light-2 {
+        @apply bg-[#FBF5F5]
+    }
+    .bg-progress-light-3 {
+        @apply bg-[#FAF5F8]
+    }
+    .bg-progress-light-4 {
+        @apply bg-[#F8F6F9]
+    }
+    .bg-progress-light-5 {
+        @apply bg-[#F7F7FB]
+    }
+    .bg-progress-light-6 {
+        @apply bg-[#F1F3FC]
+    }
+    .bg-progress-light-7 {
+        @apply bg-[#F2F4FC]
+    }
+    .bg-progress-light-8 {
+        @apply bg-[#EBF4FF]
+    }
+
+    .bg-progress-1 {
+        @apply bg-[#FA9D8C]
+    }
+    .bg-progress-2 {
+        @apply bg-[#DA8D91]
+    }
+    .bg-progress-3 {
+        @apply bg-[#BA7D97]
+    }
+    .bg-progress-4 {
+        @apply bg-[#9A6D9C]
+    }
+    .bg-progress-5 {
+        @apply bg-[#7B5DA2]
+    }
+    .bg-progress-6 {
+        @apply bg-[#5B4DA7]
+    }
+    .bg-progress-7 {
+        @apply bg-[#3B3DAD]
+    }
+    .bg-progress-8 {
+        @apply bg-[#1B2DB2]
+    }
+
+    .text-progress-1 {
+        @apply text-[#FA9D8C]
+    }
+    .text-progress-2 {
+        @apply text-[#DA8D91]
+    }
+    .text-progress-3 {
+        @apply text-[#BA7D97]
+    }
+    .text-progress-4 {
+        @apply text-[#9A6D9C]
+    }
+    .text-progress-5 {
+        @apply text-[#7B5DA2]
+    }
+    .text-progress-6 {
+        @apply text-[#5B4DA7]
+    }
+    .text-progress-7 {
+        @apply text-[#3B3DAD]
+    }
+    .text-progress-8 {
+        @apply text-[#1B2DB2]
+    }
+
+    .border-progress-1 {
+        @apply border-[#FA9D8C]
+    }
+    .border-progress-2 {
+        @apply border-[#DA8D91]
+    }
+    .border-progress-3 {
+        @apply border-[#BA7D97]
+    }
+    .border-progress-4 {
+        @apply border-[#9A6D9C]
+    }
+    .border-progress-5 {
+        @apply border-[#7B5DA2]
+    }
+    .border-progress-6 {
+        @apply border-[#5B4DA7]
+    }
+    .border-progress-7 {
+        @apply border-[#3B3DAD]
+    }
+    .border-progress-8 {
+        @apply border-[#1B2DB2]
+    }
+}
+
+@tailwind utilities;
